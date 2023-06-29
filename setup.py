@@ -1,7 +1,7 @@
 import pybind11
 from setuptools import setup, Extension
 
-cpp_args = ['-std=c++03']
+cpp_args = ['-std=c++20']
 
 ext_modules = [
     Extension(
